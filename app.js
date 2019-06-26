@@ -8,6 +8,7 @@ var bodyParser   = require('body-parser');
 var moment       = require('moment');
 
 var app = express();
+moment.locale('pt-BR');
 
 // View engine setup
 var handlebars = require('express-handlebars')
